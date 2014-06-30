@@ -13,8 +13,6 @@ var argv = require('yargs')
 
 var sender = 'http://alpha.rel.is/messages'
 
-sender = 'http://localhost:8099/messages'
-
 var message = {
     "@context":"http://rel.is/0.1",
     to: argv.to,
