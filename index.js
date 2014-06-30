@@ -7,7 +7,7 @@ var argv = require('yargs')
   .alias('r','rel')
   .alias('v','verbose')
   .alias('h','help')
-  .usage('$0 -t <uri> -f <uri> -r <uri>')
+  .usage('rel-cli -t <uri> -f <uri> -r <uri>')
   .demand(['t','f','r'])
   .argv
 
