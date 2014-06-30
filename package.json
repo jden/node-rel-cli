@@ -19,9 +19,7 @@
     "mocha": "^1.19.0"
   },
   "dependencies": {
-    "minimist": "^0.2.0",
     "request": "^2.36.0",
-    "optimist": "^0.6.1",
     "yargs": "^1.2.6"
   }
 }
